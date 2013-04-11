@@ -14,7 +14,7 @@ public class MainTest {
 		Phaser phaser = new Phaser(3);
 		// create file searcher for system
 		FileSearcher sys = new FileSearcher("C:/Windows", "log", phaser);
-		// create file searcher for program
+		// create file seacher for program
 		FileSearcher app = new FileSearcher("C:/Program Files", "log", phaser);
 		// create file searcher for document
 		FileSearcher doc = new FileSearcher("C:/Documents And Settings","log",phaser);

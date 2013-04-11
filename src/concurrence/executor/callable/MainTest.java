@@ -12,21 +12,16 @@ import java.util.concurrent.TimeUnit;
 public class MainTest {
 
 	public static void main(String[] args) {
-		// declare an executor for the test
 		ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors
 				.newFixedThreadPool(2);
-		// declare a list as result 
 		List<Future<Integer>> resultList = new ArrayList<Future<Integer>>();
 		Random random = new Random();
-		// loop for test ,put the 10 different calculator into the result and call the submit method to
-		// executor the thread
 		for (int i = 0; i < 10; i++) {
 			Integer number = random.nextInt(10);
 			FactorialCalculator calculator = new FactorialCalculator(number);
 			Future<Integer> result = executor.submit(calculator);
 			resultList.add(result);
 		}
-		// the loop for the test
 		do {
 			System.out.printf("Main: Number of Completed Tasks: %d\n",
 					executor.getCompletedTaskCount());
@@ -53,7 +48,6 @@ public class MainTest {
 			}
 			System.out.printf("Main: Task %d: %d\n", i, number);
 		}
-		// close the executor
 		executor.shutdown();
 
 	}
