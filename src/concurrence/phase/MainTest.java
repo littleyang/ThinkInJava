@@ -17,7 +17,7 @@ public class MainTest {
 		// create file seacher for program
 		FileSearcher app = new FileSearcher("C:/Program Files", "log", phaser);
 		// create file searcher for document
-		FileSearcher doc = new FileSearcher("C:/Documents And Settings","log",phaser);
+		//FileSearcher doc = new FileSearcher("C:/Documents And Settings","log",phaser);
 		//create sys thread for sys file searcher
 		Thread sysThread = new Thread(sys);
 		sysThread.start();
@@ -25,13 +25,13 @@ public class MainTest {
 		Thread appThread = new Thread(app);
 		appThread.start();
 		//create doc thread for doc file searcher
-		Thread docThread = new Thread(doc);
-		docThread.start();
+		//Thread docThread = new Thread(doc);
+		//docThread.start();
 		//wait for the finalization three threads
 		try{
 			sysThread.join();
 			appThread.join();
-			docThread.join();
+			//docThread.join();
 		}catch(Exception e){
 			e.printStackTrace();
 		}
