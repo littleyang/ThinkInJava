@@ -1,8 +1,8 @@
 package javadesign.pattern.intend.proxy.dynamicproxy;
 
 /** 
- * 真实主题(Real Subject)角色 
- * 奥迪厂家 
+ * 真实对象(Real Subject)角色 
+ * 被代理对象
  * 
  */  
 public class AudiCarFactory implements CarSeller {  
