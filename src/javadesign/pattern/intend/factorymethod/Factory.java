@@ -2,8 +2,8 @@ package javadesign.pattern.intend.factorymethod;
 
 /**
  * factory method pattern:
- * Factory Method PatternÔÚ¸¸Àà¹æ¶¨¶ÔÏóµÄ´´½¨·½·¨£¬µ«²¢Ã»ÓĞÉîÈëµ½½Ï¾ßÌåµÄÀàÃû¡£
- * ËùÓĞ¾ßÌåµÄÍêÕûÄÚÈİ¶¼·ÅÔÚ×ÓÀà
+ * StaticFactory Method Patternï¿½Ú¸ï¿½ï¿½ï¿½æ¶¨ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ëµ½ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½Ğ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author jenny
  *
  */
@@ -14,8 +14,8 @@ public abstract class Factory {
 		smearColor(cup,color);
 		return cup;
 	}
-	 //³éÏó·½·¨£¬ÖÆ×÷Ë®±­£¬shape²ÎÊıÖ¸¶¨Ë®±­µÄÍâĞÎ  
+	 //ï¿½ï¿½ï¿½ó·½·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½shapeï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	protected abstract Cup makeCup(String shape);
-	 //³éÏó·½·¨£¬¸øË®±­Í¿ÉÏÑÕÉ« 
+	 //ï¿½ï¿½ï¿½ó·½·ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½É« 
     protected abstract void smearColor(Cup cup,String color); 
 }

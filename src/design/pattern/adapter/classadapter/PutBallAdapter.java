@@ -3,7 +3,7 @@ package design.pattern.adapter.classadapter;
 /**
  * this is the adapter pattern:
  * shall we put the football using the basketBallBag?
- * ok,let do it. Using Object Adapter pattern
+ * ok,let do it. Using Object ObjectAdapter pattern
  * @author jenny
  *
  */

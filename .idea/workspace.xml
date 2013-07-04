@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e975f5-dabf-46b8-ad27-77a7f0352c48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ACompanyFrontGirl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/AbstractFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Adaptee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/AdvanceMember.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/AmdCpu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/AmdFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/AmdMainboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ClassAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/ClassUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/CommonInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/CommonMember.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/ComputerEngineer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/Cpu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/DevelopmentCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/DoubleLockSingleTon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/EnumSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/FormLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/FrontFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/InnerClassSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/IntelCpu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/IntelFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/IntelMainboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/JuniorMember.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/LazySingleTon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/LoginFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/MainBoard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/MemberStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ObjectAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/strategy/Price.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SaleCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ServiceCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/singleton/SingleTon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/SsoLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SupportCenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Target.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkInJava.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javadesign/pattern/intend/factorymethod/Factory.java" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/factorymethod/Factory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/pattern/adapter/classadapter/PutBallAdapter.java" afterPath="$PROJECT_DIR$/src/design/pattern/adapter/classadapter/PutBallAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/design/pattern/adapter/classadapter/TargetClass.java" afterPath="$PROJECT_DIR$/src/design/pattern/adapter/classadapter/TargetClass.java" />
+    </list>
+    <ignored path="ThinkInJava.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372927154759" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372666324832" ignored="false" />
+    <file path="/MemberStrategy.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372648979746" ignored="false" />
+    <file path="/Price.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649636517" ignored="false" />
+    <file path="/AdvanceMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649147744" ignored="false" />
+    <file path="/CommonMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649269783" ignored="false" />
+    <file path="/JuniorMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649396020" ignored="false" />
+    <file path="/MainTest.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923736561" ignored="false" />
+    <file path="/SingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372732695944" ignored="false" />
+    <file path="/LazySingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372732964924" ignored="false" />
+    <file path="/DoubleLockSingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372733756892" ignored="false" />
+    <file path="/EnumSingleton.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372734862387" ignored="false" />
+    <file path="/InnerClassSingleton.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372734485983" ignored="false" />
+    <file path="/CommonInterface.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821283798" ignored="false" />
+    <file path="/FormLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821336259" ignored="false" />
+    <file path="/SsoLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821392378" ignored="false" />
+    <file path="/WebServiceLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821521737" ignored="false" />
+    <file path="/LoginFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372823395963" ignored="false" />
+    <file path="/AbstractFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830304596" ignored="false" />
+    <file path="/Cpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830352778" ignored="false" />
+    <file path="/MainBoard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830382322" ignored="false" />
+    <file path="/IntelCpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830457290" ignored="false" />
+    <file path="/AmdCpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830435794" ignored="false" />
+    <file path="/IntelMainboard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830494567" ignored="false" />
+    <file path="/AmdMainboard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830544233" ignored="false" />
+    <file path="/AmdFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830689936" ignored="false" />
+    <file path="/CpuFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830763631" ignored="false" />
+    <file path="/IntelFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372831054885" ignored="false" />
+    <file path="/ComputerEngineer.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372831577227" ignored="false" />
+    <file path="/Target.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372919967416" ignored="false" />
+    <file path="/Adaptee.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920012634" ignored="false" />
+    <file path="/ClassAdapter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920314870" ignored="false" />
+    <file path="/ObjectAdapter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920498549" ignored="false" />
+    <file path="/FrontFunction.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923084954" ignored="false" />
+    <file path="/ACompanyFrontGirl.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923635959" ignored="false" />
+    <file path="/DevelopmentCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923289264" ignored="false" />
+    <file path="/SaleCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923358726" ignored="false" />
+    <file path="/ServiceCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923436256" ignored="false" />
+    <file path="/SupportCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923495472" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ThinkInJava" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="39" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adapter.uml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/adapter.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="124.625" y="227.0">javadesign.pattern.intend.AdapterPattern.MainTest</node>
+                <node x="3.25" y="0.0">javadesign.pattern.intend.AdapterPattern.Target</node>
+                <node x="223.5" y="0.0">javadesign.pattern.intend.AdapterPattern.Adaptee</node>
+                <node x="231.0" y="102.0">javadesign.pattern.intend.AdapterPattern.ObjectAdapter</node>
+                <node x="0.0" y="102.5">javadesign.pattern.intend.AdapterPattern.ClassAdapter</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="javadesign.pattern.intend.AdapterPattern.ClassAdapter" target="javadesign.pattern.intend.AdapterPattern.Target">
+                  <point x="-52.75" y="-37.0" />
+                  <point x="-49.5" y="26.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.AdapterPattern.MainTest" target="javadesign.pattern.intend.AdapterPattern.ObjectAdapter">
+                  <point x="23.0" y="-26.0" />
+                  <point x="239.625" y="202.0" />
+                  <point x="275.0" y="202.0" />
+                  <point x="-44.0" y="37.5" />
+                </edge>
+                <edge source="javadesign.pattern.intend.AdapterPattern.MainTest" target="javadesign.pattern.intend.AdapterPattern.ClassAdapter">
+                  <point x="-69.0" y="-26.0" />
+                  <point x="147.625" y="202.0" />
+                  <point x="52.75" y="202.0" />
+                  <point x="-52.75" y="37.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.AdapterPattern.ClassAdapter" target="javadesign.pattern.intend.AdapterPattern.Adaptee">
+                  <point x="52.75" y="-37.0" />
+                  <point x="158.25" y="82.0" />
+                  <point x="255.33333333333331" y="82.0" />
+                  <point x="-63.666666666666686" y="26.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.AdapterPattern.ObjectAdapter" target="javadesign.pattern.intend.AdapterPattern.Adaptee">
+                  <point x="58.666666666666686" y="-37.5" />
+                  <point x="377.6666666666667" y="82.0" />
+                  <point x="382.66666666666663" y="82.0" />
+                  <point x="63.66666666666663" y="26.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.AdapterPattern.ObjectAdapter" target="javadesign.pattern.intend.AdapterPattern.Target">
+                  <point x="-58.66666666666663" y="-37.5" />
+                  <point x="260.33333333333337" y="72.0" />
+                  <point x="151.75" y="72.0" />
+                  <point x="49.5" y="26.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-70.0" y="59.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="89" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facade.uml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/Facade.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="0.0" y="0.0">javadesign.pattern.intend.Facade.FrontFunction</node>
+                <node x="918.0" y="33.0">javadesign.pattern.intend.Facade.DevelopmentCenter</node>
+                <node x="564.75" y="356.0">javadesign.pattern.intend.Facade.MainTest</node>
+                <node x="524.0" y="33.0">javadesign.pattern.intend.Facade.SupportCenter</node>
+                <node x="503.25" y="188.0">javadesign.pattern.intend.Facade.ACompanyFrontGirl</node>
+                <node x="327.0" y="33.0">javadesign.pattern.intend.Facade.ServiceCenter</node>
+                <node x="721.0" y="33.0">javadesign.pattern.intend.Facade.SaleCenter</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="javadesign.pattern.intend.Facade.MainTest" target="javadesign.pattern.intend.Facade.ACompanyFrontGirl">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.DevelopmentCenter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.SupportCenter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.ServiceCenter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.SaleCenter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.FrontFunction">
+                  <point x="-136.44444444444446" y="-59.0" />
+                  <point x="520.3055555555555" y="168.0" />
+                  <point x="153.5" y="168.0" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8838599487617421" x="575.5" y="203.4342995169082" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ACompanyFrontGirl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ACompanyFrontGirl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="36" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevelopmentCenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/DevelopmentCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="58" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleCenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SaleCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="56" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceCenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ServiceCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="59" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SupportCenter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SupportCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="57" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontFunction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/FrontFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/ComputerEngineer.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AbstractFactory/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/ClassUtils.java" />
+        <option value="$PROJECT_DIR$/src/design/pattern/adapter/classadapter/TargetClass.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Target.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ClassAdapter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ObjectAdapter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/FrontFunction.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/DevelopmentCenter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SaleCenter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ServiceCenter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SupportCenter.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ACompanyFrontGirl.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/MainTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javadesign/pattern/intend/Facade" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e975f5-dabf-46b8-ad27-77a7f0352c48" name="Default" comment="" />
+      <created>1372383186819</created>
+      <updated>1372383186819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.6008584" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39800286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25646552" sideWeight="0.42618385" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.6709585" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25646552" sideWeight="0.67085075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33038348" sideWeight="0.60199714" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4871795" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="nothing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design/pattern/adapter/classadapter/TargetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="160" selection-end="160" vertical-scroll-proportion="0.16491754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ClassAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/ObjectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/AdapterPattern/adapter.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="124.625" y="227.0">javadesign.pattern.intend.AdapterPattern.MainTest</node>
+            <node x="3.25" y="0.0">javadesign.pattern.intend.AdapterPattern.Target</node>
+            <node x="223.5" y="0.0">javadesign.pattern.intend.AdapterPattern.Adaptee</node>
+            <node x="231.0" y="102.0">javadesign.pattern.intend.AdapterPattern.ObjectAdapter</node>
+            <node x="0.0" y="102.5">javadesign.pattern.intend.AdapterPattern.ClassAdapter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javadesign.pattern.intend.AdapterPattern.ClassAdapter" target="javadesign.pattern.intend.AdapterPattern.Target">
+              <point x="-52.75" y="-37.0" />
+              <point x="-49.5" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.AdapterPattern.MainTest" target="javadesign.pattern.intend.AdapterPattern.ObjectAdapter">
+              <point x="23.0" y="-26.0" />
+              <point x="239.625" y="202.0" />
+              <point x="275.0" y="202.0" />
+              <point x="-44.0" y="37.5" />
+            </edge>
+            <edge source="javadesign.pattern.intend.AdapterPattern.MainTest" target="javadesign.pattern.intend.AdapterPattern.ClassAdapter">
+              <point x="-69.0" y="-26.0" />
+              <point x="147.625" y="202.0" />
+              <point x="52.75" y="202.0" />
+              <point x="-52.75" y="37.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.AdapterPattern.ClassAdapter" target="javadesign.pattern.intend.AdapterPattern.Adaptee">
+              <point x="52.75" y="-37.0" />
+              <point x="158.25" y="82.0" />
+              <point x="255.33333333333331" y="82.0" />
+              <point x="-63.666666666666686" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.AdapterPattern.ObjectAdapter" target="javadesign.pattern.intend.AdapterPattern.Adaptee">
+              <point x="58.666666666666686" y="-37.5" />
+              <point x="377.6666666666667" y="82.0" />
+              <point x="382.66666666666663" y="82.0" />
+              <point x="63.66666666666663" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.AdapterPattern.ObjectAdapter" target="javadesign.pattern.intend.AdapterPattern.Target">
+              <point x="-58.66666666666663" y="-37.5" />
+              <point x="260.33333333333337" y="72.0" />
+              <point x="151.75" y="72.0" />
+              <point x="49.5" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-70.0" y="59.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/FrontFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/DevelopmentCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="58" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SaleCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="56" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ServiceCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="59" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/SupportCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="57" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/ACompanyFrontGirl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="36" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="89" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Facade/Facade.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="0.0">javadesign.pattern.intend.Facade.FrontFunction</node>
+            <node x="918.0" y="33.0">javadesign.pattern.intend.Facade.DevelopmentCenter</node>
+            <node x="564.75" y="356.0">javadesign.pattern.intend.Facade.MainTest</node>
+            <node x="524.0" y="33.0">javadesign.pattern.intend.Facade.SupportCenter</node>
+            <node x="503.25" y="188.0">javadesign.pattern.intend.Facade.ACompanyFrontGirl</node>
+            <node x="327.0" y="33.0">javadesign.pattern.intend.Facade.ServiceCenter</node>
+            <node x="721.0" y="33.0">javadesign.pattern.intend.Facade.SaleCenter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javadesign.pattern.intend.Facade.MainTest" target="javadesign.pattern.intend.Facade.ACompanyFrontGirl">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.DevelopmentCenter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.SupportCenter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.ServiceCenter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.SaleCenter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Facade.ACompanyFrontGirl" target="javadesign.pattern.intend.Facade.FrontFunction">
+              <point x="-136.44444444444446" y="-59.0" />
+              <point x="520.3055555555555" y="168.0" />
+              <point x="153.5" y="168.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8838599487617421" x="575.5" y="203.4342995169082" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ThinkInJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31152633" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
