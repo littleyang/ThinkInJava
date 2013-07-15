@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e975f5-dabf-46b8-ad27-77a7f0352c48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/AbsMessageOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/AbsMessageThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/AbsMessageTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/AudoCommander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/AudoPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/BridgeCommonAbstraction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/BridgeCommonInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ComponmentInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/ConcretBridgeOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/ConcretBridgeThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/ConcretBridgeTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/Decorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Invoker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Jully.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MacroCommanderImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Bridge/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/MainTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MaroCommander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/PlayCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/RewindCommander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/StopCommander.java" />
+      <change type="MOVED" beforePath="C:\Users\jenny\workspace\ThinkInJava\src\javadesign\pattern\intend\StaticFactory\WebServiceLOgin.java" afterPath="$PROJECT_DIR$/src/javadesign/pattern/intend/StaticFactory/WebServiceLogin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    </list>
+    <ignored path="ThinkInJava.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373872156330" ignored="false" />
+    <file path="/MemberStrategy.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372648979746" ignored="false" />
+    <file path="/Price.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649636517" ignored="false" />
+    <file path="/AdvanceMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649147744" ignored="false" />
+    <file path="/CommonMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649269783" ignored="false" />
+    <file path="/JuniorMember.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372649396020" ignored="false" />
+    <file path="/MainTest.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373871252408" ignored="false" />
+    <file path="/SingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372732695944" ignored="false" />
+    <file path="/LazySingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372732964924" ignored="false" />
+    <file path="/DoubleLockSingleTon.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372733756892" ignored="false" />
+    <file path="/EnumSingleton.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372734862387" ignored="false" />
+    <file path="/InnerClassSingleton.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372734485983" ignored="false" />
+    <file path="/CommonInterface.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821283798" ignored="false" />
+    <file path="/FormLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821336259" ignored="false" />
+    <file path="/SsoLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821392378" ignored="false" />
+    <file path="/WebServiceLogin.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372821521737" ignored="false" />
+    <file path="/LoginFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372823395963" ignored="false" />
+    <file path="/AbstractFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830304596" ignored="false" />
+    <file path="/Cpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830352778" ignored="false" />
+    <file path="/MainBoard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830382322" ignored="false" />
+    <file path="/IntelCpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830457290" ignored="false" />
+    <file path="/AmdCpu.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830435794" ignored="false" />
+    <file path="/IntelMainboard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830494567" ignored="false" />
+    <file path="/AmdMainboard.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830544233" ignored="false" />
+    <file path="/AmdFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830689936" ignored="false" />
+    <file path="/CpuFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372830763631" ignored="false" />
+    <file path="/IntelFactory.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372831054885" ignored="false" />
+    <file path="/ComputerEngineer.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372831577227" ignored="false" />
+    <file path="/Target.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372919967416" ignored="false" />
+    <file path="/Adaptee.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920012634" ignored="false" />
+    <file path="/ClassAdapter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920314870" ignored="false" />
+    <file path="/ObjectAdapter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372920498549" ignored="false" />
+    <file path="/FrontFunction.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923084954" ignored="false" />
+    <file path="/ACompanyFrontGirl.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923635959" ignored="false" />
+    <file path="/DevelopmentCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923289264" ignored="false" />
+    <file path="/SaleCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923358726" ignored="false" />
+    <file path="/ServiceCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923436256" ignored="false" />
+    <file path="/SupportCenter.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1372923495472" ignored="false" />
+    <file path="/MySemap.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373014183097" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373015909460" ignored="false" />
+    <file path="/AbstractMethod.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373247464595" ignored="false" />
+    <file path="/ConcertMethodThree.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373247509319" ignored="false" />
+    <file path="/ConcretMethodOne.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373247561987" ignored="false" />
+    <file path="/ConcretMethodTwo.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373247618864" ignored="false" />
+    <file path="/WelcomeBuilder.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373267091686" ignored="false" />
+    <file path="/WelcomeMessage.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373267366365" ignored="false" />
+    <file path="/GoodbyeBuilder.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373267349101" ignored="false" />
+    <file path="/GoodByeMessage.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373267123150" ignored="false" />
+    <file path="/Director.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373267272461" ignored="false" />
+    <file path="/BridgeCommonAbstraction.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437960776" ignored="false" />
+    <file path="/BridgeCommonInterface.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373425235842" ignored="false" />
+    <file path="/AbsMessageThree.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437470303" ignored="false" />
+    <file path="/AbsMessageOne.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437499139" ignored="false" />
+    <file path="/AbsMessageTwo.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437510259" ignored="false" />
+    <file path="/ConcretBridgeOne.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437677112" ignored="false" />
+    <file path="/ConcretBridgeThree.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437686553" ignored="false" />
+    <file path="/ConcretBridgeTwo.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373437705777" ignored="false" />
+    <file path="/fragment.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373871498488" ignored="false" />
+    <file path="/AudoPlayer.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854126647" ignored="false" />
+    <file path="/AudoCommander.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854202062" ignored="false" />
+    <file path="/PlayCommand.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854280046" ignored="false" />
+    <file path="/StopCommander.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854339032" ignored="false" />
+    <file path="/RewindCommander.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854395421" ignored="false" />
+    <file path="/Invoker.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854764139" ignored="false" />
+    <file path="/Jully.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373854814634" ignored="false" />
+    <file path="/MaroCommander.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373855171552" ignored="false" />
+    <file path="/MacroCommanderImp.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373855402015" ignored="false" />
+    <file path="/ComponmentInterface.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373868309148" ignored="false" />
+    <file path="/ConcretComponent.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373868318066" ignored="false" />
+    <file path="/Decorator.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373869505043" ignored="false" />
+    <file path="/ConcretDecoratorA.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373870792872" ignored="false" />
+    <file path="/ConcretDecoratorB.java" changelist="c1e975f5-dabf-46b8-ad27-77a7f0352c48" time="1373870702817" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ThinkInJava" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ConcretDecoratorB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="53" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="25" selection-start="553" selection-end="553" vertical-scroll-proportion="0.7024673">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/AudoPlayer.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/AudoCommander.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Invoker.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Jully.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/PlayCommand.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/RewindCommander.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/StopCommander.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MaroCommander.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MacroCommanderImp.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ComponmentInterface.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretComponent.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorB.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorA.java" />
+        <option value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/concurrence/framework/concullection/nonblock/MainTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gradle" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainTest">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainTest" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="javadesign.pattern.intend.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="javadesign.pattern.intend.Decorator.MainTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkInJava" />
+      <envs />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainTest" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1e975f5-dabf-46b8-ad27-77a7f0352c48" name="Default" comment="" />
+      <created>1372383186819</created>
+      <updated>1372383186819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496318" sideWeight="0.6008584" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39693594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25646552" sideWeight="0.42618385" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32635984" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6709585" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.6709585" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.6736402" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33038348" sideWeight="0.60199714" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4871795" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="nothing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/StopCommander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="417" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Jully.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/AudoCommander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MaroCommander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/Commander.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="820.7586805555555" y="22.0">javadesign.pattern.intend.Commander.AudoCommander</node>
+            <node x="746.0" y="208.0">javadesign.pattern.intend.Commander.MaroCommander</node>
+            <node x="857.7951388888889" y="376.0">javadesign.pattern.intend.Commander.MacroCommanderImp</node>
+            <node x="234.0920138888889" y="0.0">javadesign.pattern.intend.Commander.AudoPlayer</node>
+            <node x="0.0" y="196.0">javadesign.pattern.intend.Commander.PlayCommand</node>
+            <node x="235.0" y="354.0">javadesign.pattern.intend.Commander.Invoker</node>
+            <node x="257.0" y="567.0">javadesign.pattern.intend.Commander.Jully</node>
+            <node x="230.0" y="196.0">javadesign.pattern.intend.Commander.RewindCommander</node>
+            <node x="488.0" y="196.0">javadesign.pattern.intend.Commander.StopCommander</node>
+            <node x="-10.349999999999994" y="531.75">javadesign.pattern.intend.Commander.MainTest</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="javadesign.pattern.intend.Commander.StopCommander" target="javadesign.pattern.intend.Commander.AudoCommander">
+              <point x="79.33333333333337" y="-49.0" />
+              <point x="686.3333333333334" y="166.0" />
+              <point x="867.3211805555555" y="166.0" />
+              <point x="-27.9375" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Commander.PlayCommand" target="javadesign.pattern.intend.Commander.AudoCommander">
+              <point x="70.0" y="-49.0" />
+              <point x="175.0" y="146.0" />
+              <point x="830.0711805555555" y="146.0" />
+              <point x="-65.1875" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Commander.MacroCommanderImp" target="javadesign.pattern.intend.Commander.MaroCommander">
+              <point x="-120.375" y="-59.5" />
+              <point x="897.9201388888889" y="334.0" />
+              <point x="886.5" y="334.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Commander.RewindCommander" target="javadesign.pattern.intend.Commander.AudoCommander">
+              <point x="79.33333333333331" y="-49.0" />
+              <point x="428.3333333333333" y="156.0" />
+              <point x="848.6961805555555" y="156.0" />
+              <point x="-46.5625" y="26.0" />
+            </edge>
+            <edge source="javadesign.pattern.intend.Commander.MaroCommander" target="javadesign.pattern.intend.Commander.AudoCommander">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8695652173913043" x="232.0" y="266.0" />
+          <SelectedNodes>
+            <node>javadesign.pattern.intend.Commander.MacroCommanderImp</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ComponmentInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/Decorator.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="311.0" y="80.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="71" selection-start="735" selection-end="735" vertical-scroll-proportion="0.79710144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="103" selection-start="626" selection-end="626" vertical-scroll-proportion="0.6376812">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Commander/MacroCommanderImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="635" selection-end="760" vertical-scroll-proportion="0.48985508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/ConcretDecoratorB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="53" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrence/collection/blocking/navigablemap/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="48" selection-start="331" selection-end="331" vertical-scroll-proportion="-0.5007257">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="56" selection-start="407" selection-end="407" vertical-scroll-proportion="0.51088536">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/concurrence/framework/concullection/nonblock/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="27" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javadesign/pattern/intend/Decorator/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="553" selection-end="553" vertical-scroll-proportion="0.7024673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ThinkInJava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31152633" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
